@@ -6,10 +6,7 @@
  * return: null
  */
 
-void reset_to_98(int *p)
-{
-	*p = 98; /* dereferce p and assign 98 to it*/
-}
+void reset_to_98(int *p);
 
 /*
  * Main
@@ -25,4 +22,9 @@ int main(void)
 	reset_to_98(&n);
 	printf("n=%d\n", n);
 	return (0);
+}
+
+void reset_to_98(int *p)
+{
+	        *p = 98; /* dereferce p and assign 98 to it*/
 }
