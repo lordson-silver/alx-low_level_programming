@@ -4,9 +4,9 @@
 /*void reset_to_98(int *p);*/
 
 /*
- * Main
- * Return: Always 0.
- */
+* Main
+* Return: Always 0.
+*/
 /*
 *int main(void)
 *{
@@ -22,11 +22,11 @@
 
 /*
 * reset_to_98 - Function that takes a pointer to an int
-* as paramete and updates the value it points to to 98 
+* as paramete and updates the value it points to to 98
 * return: null
 */
 
-void reset_to_98(int *p)
+void reset_to_98(int *p) /*reset_to_98 - Function that takes a pointer to an int*/
 {
 	*p = 98; /* dereferce p and assign 98 to it*/
 }
