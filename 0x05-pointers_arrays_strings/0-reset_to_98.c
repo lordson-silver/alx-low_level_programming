@@ -21,10 +21,10 @@
 */
 
 /*
- * reset_to_98 - Function that takes a pointer to an int
- * as paramete and updates the value it points to to 98 
- * return: null
- */
+* reset_to_98 - Function that takes a pointer to an int
+* as paramete and updates the value it points to to 98 
+* return: null
+*/
 
 void reset_to_98(int *p)
 {
