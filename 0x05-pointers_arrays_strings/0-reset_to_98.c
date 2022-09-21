@@ -26,5 +26,5 @@
 */
 void reset_to_98(int *p)
 {
-        *p = 98; /* dereferce p and assign 98 to it*/
+	*p = 98; /* dereferce p and assign 98 to it*/
 }
