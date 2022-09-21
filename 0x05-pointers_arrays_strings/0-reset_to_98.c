@@ -26,7 +26,7 @@
 * return: null
 */
 
-void reset_to_98(int *p) /*reset_to_98 - Function that takes a pointer to an int*/
+void reset_to_98(int *p) /*reset_to_98 - Fnctn that takes a pointer to int*/
 {
 	*p = 98; /* dereferce p and assign 98 to it*/
 }
