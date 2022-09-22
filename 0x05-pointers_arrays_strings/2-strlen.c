@@ -6,9 +6,8 @@
  * @s: char pointer
  * l:
  *
- * return: l.
+ * Return: l.
  */
-
 int _strlen(char *s)
 {
 	int l;
