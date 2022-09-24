@@ -9,32 +9,34 @@
 void times_table(void)
 {
 	int i, j, k, l, m;
-	i = '0';
+	i = 0;
 
 	while (i <= 9)
 	{
-		j = '0';
+		j = 0;
+
 		while (j <= 9)
 		{
 			k = i * j;
 			l = k / 10;
 			m = k % 10;
 
-			if (j == '0')
+			if (j == 0)
 				_putchar('0');
+
 			else if (j < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(m);
+				_putchar(m + '0');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(l);
-				_putchar(m);
+				_putchar(l + '0');
+				_putchar(m + '0');
 			}
 			j++;
 		}
