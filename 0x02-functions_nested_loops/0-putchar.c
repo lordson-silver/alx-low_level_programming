@@ -20,8 +20,9 @@ int main(void)
 	i--;
 	while (i > j)
 	{
-		_putchar[j];
+		_putchar(str[j]);
 		j++;
 	}
+	_putchar('\n');
 	return (0);
 }
