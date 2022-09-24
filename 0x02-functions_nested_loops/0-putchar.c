@@ -17,7 +17,6 @@ int main(void)
 
 	for (;str[i] != '\0'; i++);
 	
-	i--;
 	while (i > j)
 	{
 		_putchar(str[j]);
