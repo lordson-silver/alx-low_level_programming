@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - 
- * function that prints a - z, followed  by a new line
+ * print_alphabet - function that prints a - z, followed  by a new line
  *
  * Return: always 0
  */
