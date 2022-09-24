@@ -2,10 +2,8 @@
 
 #include "main.h"
 /**/
-//int _putchar(char c);
 
 /**/
-//void foo();
 /**
  * main - C main function
  * function that prints _putchar, followed  by a new line
