@@ -1,9 +1,6 @@
 #include <stdio.h>
-
 #include "main.h"
-/**/
 
-/**/
 /**
  * main - C main function
  * function that prints _putchar, followed  by a new line
@@ -13,11 +10,11 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	int i = 0,j = 0;
+	int i = 0, j = 0;
 
-	for (;str[i] != '\0'; i++);
+	for (; str[i] != '\0'; i++);
 	
-	while (i > j)
+	while(i > j)
 	{
 		_putchar(str[j]);
 		j++;
