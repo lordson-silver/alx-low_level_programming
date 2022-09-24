@@ -4,8 +4,12 @@
 /**
  * */
 
-void print_rev(char *s)
+//void print_rev(char *s)
+int main ()
 {
+	char s[] = {"Good Food!"};
 	strrev(s);
-	puts(s)	
+	puts(s);
+
+	return (0);
 }
