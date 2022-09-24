@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+#include "main.h"
 /**/
 //int _putchar(char c);
 
@@ -15,9 +17,9 @@ int main(void)
 	char str[] = "_putchar";
 	int i = 0,j = 0;
 
-	for (;str[i] != '\0', i++);
+	for (;str[i] != '\0'; i++);
 	
-	i-1;
+	i--;
 	while (i > j)
 	{
 		_putchar[j];
