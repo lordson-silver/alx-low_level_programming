@@ -5,7 +5,7 @@
  * main - C main function
  * function that prints _putchar, followed  by a new line
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
 {
