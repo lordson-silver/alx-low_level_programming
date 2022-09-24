@@ -41,10 +41,10 @@ void jack_bauer(void)
 					l++;
 				}
 				l = 0;
-				k++
+				k++;
 			}
 			k = 0;
-			j++
+			j++;
 		}
 		j = 0;
 		i++;
