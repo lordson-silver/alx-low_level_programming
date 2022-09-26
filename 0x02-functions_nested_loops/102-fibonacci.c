@@ -5,6 +5,11 @@
  * @n - function param
  * Return: always
  */
+
+/**
+* _fibgen - fibonacci generator
+* @n: int param
+*/
 void _fibgen(int n);
 int main(void)
 {
@@ -26,7 +31,7 @@ void _fibgen(int n)
 
 	while (a < n)
 	{
-		if (b > 0)
+		if (b != 0)
 		{
 			printf("%ld, ", b += b);
 		}
