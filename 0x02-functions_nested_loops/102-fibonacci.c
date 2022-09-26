@@ -7,7 +7,6 @@
  */
 
 /**
-* _fibgen - fibonacci generator
 * @n: int param
 */
 void _fibgen(int n);
@@ -24,16 +23,21 @@ int main(void)
  */
 void _fibgen(int n)
 {
-	long int a, b;
+	long int i, b, a;
 
-	a = 0, b = 0;
-	n += 1;
+	i = 0, a = 1,  b = 2;
 
-	while (a < n)
+	while (i < n)
 	{
-		if (b != 0)
+		if (b == 0)
+			printf("%ld", a);
+		else if
+			printf(", %ld", b);
+		else
 		{
-			printf("%ld, ", b += b);
+			b += a;
+			a = b - a;
+			printf(", %ld", b);
 		}
 		a++;
 	}
