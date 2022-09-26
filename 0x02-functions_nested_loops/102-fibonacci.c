@@ -29,9 +29,9 @@ void _fibgen(int n)
 
 	while (i < n)
 	{
-		if (b == 0)
+		if (i == 0)
 			printf("%ld", a);
-		else if (b == 1)
+		else if (i == 1)
 			printf(", %ld", b);
 		else
 		{
@@ -39,7 +39,7 @@ void _fibgen(int n)
 			a = b - a;
 			printf(", %ld", b);
 		}
-		a++;
+		i++;
 	}
 	printf("\n");
 }
