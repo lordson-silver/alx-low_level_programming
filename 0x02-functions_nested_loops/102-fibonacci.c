@@ -2,7 +2,8 @@
 
 /**
  * main - c main funcyion
- * Return: always 
+ * @n - function param
+ * Return: always
  */
 void _fibgen(int n);
 int main(void)
@@ -18,10 +19,11 @@ int main(void)
  */
 void _fibgen(int n)
 {
-	int a, b;
+	long int a, b;
 
 	a = 0, b = 1;
 
+	printf("1, ");
 	while (a < n)
 	{
 		printf("%d, ", b += b);
