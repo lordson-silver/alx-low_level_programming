@@ -28,5 +28,5 @@ void _natural(void)
 		}
 		b++;
 	}
-	printf("%d ", a);
+	printf("%d\n", a);
 }
