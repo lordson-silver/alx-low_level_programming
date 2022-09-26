@@ -21,12 +21,15 @@ void _fibgen(int n)
 {
 	long int a, b;
 
-	a = 2, b = 1;
+	a = 0, b = 0;
+	n += 1;
 
-	printf("1, ");
 	while (a < n)
 	{
-		printf("%ld, ", b += b);
+		if (b > 0)
+		{
+			printf("%ld, ", b += b);
+		}
 		a++;
 	}
 	printf("\n");
