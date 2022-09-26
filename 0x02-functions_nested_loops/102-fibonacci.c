@@ -21,7 +21,7 @@ void _fibgen(int n)
 {
 	long int a, b;
 
-	a = 0, b = 1;
+	a = 2, b = 1;
 
 	printf("1, ");
 	while (a < n)
