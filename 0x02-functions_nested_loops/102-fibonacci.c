@@ -31,7 +31,7 @@ void _fibgen(int n)
 	{
 		if (b == 0)
 			printf("%ld", a);
-		else if
+		else if (b == 1)
 			printf(", %ld", b);
 		else
 		{
