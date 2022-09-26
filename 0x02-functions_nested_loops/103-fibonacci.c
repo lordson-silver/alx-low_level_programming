@@ -25,7 +25,7 @@ void _fibgen(void)
 	while (b < 4000000)
 	{
 		if (b % 2 == 0)
-				c += b;
+			c += b;
 		b += a;
 		a = b - a;
 	}
