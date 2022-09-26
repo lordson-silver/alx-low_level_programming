@@ -26,7 +26,7 @@ void _fibgen(int n)
 	printf("1, ");
 	while (a < n)
 	{
-		printf("%d, ", b += b);
+		printf("%ld, ", b += b);
 		a++;
 	}
 	printf("\n");
