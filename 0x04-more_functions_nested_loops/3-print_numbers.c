@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - function that print numbers
- * @i: int counter
  * Return: void
  */
 void print_numbers(void)
