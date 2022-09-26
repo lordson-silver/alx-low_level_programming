@@ -6,7 +6,7 @@
  * Return: always 0
  */
 void _natural(void);
-int main (void)
+int main(void)
 {
 	_natural();
 	return (0);
@@ -28,5 +28,5 @@ void _natural(void)
 		}
 		b++;
 	}
-	printf("%d", a);
+	printf("%d ", a);
 }
