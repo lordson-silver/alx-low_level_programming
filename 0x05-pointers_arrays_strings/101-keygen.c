@@ -22,7 +22,7 @@ int main(void)
 		pass[i] = rand() % 78;
 		sum += (pass[i]);
 		printf("%d", pass[i]);
-		if ((2772 - sum) > 78)
+		if ((2772 - sum)  < 78)
 		{
 			n = 2772 - sum;
 			sum += n;
