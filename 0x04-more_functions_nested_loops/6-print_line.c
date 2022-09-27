@@ -1,6 +1,10 @@
 #include "main.h"
 
-/***/
+/**
+ * print_line - function that prints line
+ * @n: int param
+ * Return: void
+ */
 void print_line(int n)
 {
 	int i = 0;
