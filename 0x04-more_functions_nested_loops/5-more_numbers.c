@@ -2,8 +2,6 @@
 
 /**
  * more_numbers - function that prints 1 - 1
- * @i: int counter
- * @j: int counter
  * Return: void
  */
 void more_numbers(void)
@@ -22,5 +20,4 @@ void more_numbers(void)
 		i++;
 		_putchar('\n');
 	}	
-	_putchar('\n');
 }
