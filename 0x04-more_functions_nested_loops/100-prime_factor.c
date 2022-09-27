@@ -22,7 +22,7 @@ void prime(void)
 	i = 2;
 	while (i <= 612852475143 && pf > i)
 	{
-		p = 1;
+		p = i;
 		if ((pf % p) == 0)
 			pf = pf / p;
 		else
