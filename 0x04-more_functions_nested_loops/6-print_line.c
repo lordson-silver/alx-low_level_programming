@@ -1,10 +1,6 @@
 #include "main.h"
 
-/**
- * print_line - function that prints a line
- * @n: int param
- * Return: void
- */
+/***/
 void print_line(int n)
 {
 	int i = 0;
@@ -17,5 +13,5 @@ void print_line(int n)
 		}
 		i++;
 	}
-	_printf('\n');
+	_putchar('\n');
 }
