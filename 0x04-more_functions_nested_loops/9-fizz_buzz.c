@@ -11,6 +11,7 @@ int main(void)
 	fizz();
 
 	printf("\n");
+
 	return (0);
 }
 
