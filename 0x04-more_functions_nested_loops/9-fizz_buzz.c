@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - main function
@@ -14,8 +15,7 @@ int main(void)
 }
 
 /**
- * fizz - function that prints the fizzbuzz
- * algorithm lol
+ * fizz - function that prints the fizzbuzz algorithm
  * Return: void
  */
 void fizz(void)
