@@ -7,18 +7,14 @@
  * Retur: void*/
 void reverse_array(int *a, int n)
 {
-	int container[100];
 	int i, j, k;
 
-	for (i = 0; i < n; i++)
-	{
-		container[i] = a[i];
-	}
+	j = n - 1;
 
-	for (j = i - 1, k = 0; j >= 0; j--, k++)
+	for (i = 0; i < n / 2; i++)
 	{
-		a[k] = container[j];
-		printf("%d", a[k]);
+		k = a[i];
+		a[i] = a[j];
+		a[j--] = k;
 	}
-	printf("\n");
 }
