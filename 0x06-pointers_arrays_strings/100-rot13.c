@@ -9,8 +9,8 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	char *a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char *b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i]; i++)
 	{
@@ -18,7 +18,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == a[j])
 			{
-				s[i] = a[j];
+				s[i] = b[j];
 				break;
 			}
 		}
