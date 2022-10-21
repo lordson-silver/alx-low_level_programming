@@ -2,44 +2,6 @@
 #include <stdlib.h>
 
 /**
- * change - calculates the minimum number of coins to make change for an amount
- * of money.
- * @cents: amount of money.
- * Return: coins.
- */
-int change(int cents)
-{
-	int coins = 0;
-
-	while (cents >= 25)
-	{
-		cents -= 25;
-		coins++;
-	}
-	while (cents >= 10)
-	{
-		cents -= 10;
-		coins++;
-	}
-	while (cents >= 5)
-	{
-		cents -= 5;
-		coins++;
-	}
-	while (cents >= 2)
-	{
-		cents -= 2;
-		coins++;
-	}
-	while (cents >= 1)
-	{
-		cents -= 1;
-		coins++;
-	}
-	return (coins);
-}
-
-/**
  * main - prints the minimum number of coins to make change for an amount of
  * money.
  * @argc: number of command line arguments.
@@ -56,13 +18,22 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	cents = atoi(argv[1]);
-	if (cents < 0)
+
+	while (cents > 0)
 	{
-		printf("0\n");
-		return (0);
+		if (cents >= 25)
+			cents -= 25;
+		else if (cents >= 10)
+			cents -= 10;
+		else if (cents >= 5)
+			cents -= 5;
+		else if (cents >= 2)
+			cents -= 2;
+		else if (cents >= 1)
+			cents -= 1;
+
+		coins++;
 	}
-	coins = 0;
-	change(cents, &coins);
 	printf("%d\n", coins);
 	return (0);
 }
