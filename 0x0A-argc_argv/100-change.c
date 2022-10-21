@@ -8,6 +8,7 @@
  * @argv: array that contains the program command line arguments.
  * Return: 0 - success, 1 - fail.
  */
+int change(int cents);
 int main(int argc, char *argv[])
 {
 	int cents, coins;
@@ -24,6 +25,22 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	coins = 0;
+	change(cents, &coins);
+	printf("%d\n", coins);
+	return (0);
+}
+
+/**
+ * change - calculates the minimum number of coins to make change for an amount
+ * of money.
+ * @cents: amount of money.
+ * @coins: number of coins.
+ * Return: coins.
+ */
+int change(int cents)
+{
+	int coins = 0;
+
 	while (cents >= 25)
 	{
 		cents -= 25;
@@ -49,6 +66,5 @@ int main(int argc, char *argv[])
 		cents -= 1;
 		coins++;
 	}
-	printf("%d\n", coins);
-	return (0);
+	return (coins);
 }
